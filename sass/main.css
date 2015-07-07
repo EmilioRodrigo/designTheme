@@ -2824,16 +2824,14 @@ header {
 .socket {
   background: url(../images/socket.png) no-repeat;
   background-color: #31323a;
-  background-attachment: fixed;
-  display: inline-block;
-  width: 100%; }
+  background-attachment: fixed; }
 
-/* line 8, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+/* line 6, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
 .farewell {
   height: 40vh;
   position: relative;
   display: none; }
-  /* line 13, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 11, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   .farewell h6 {
     color: #ffffff;
     font-size: 2.5em;
@@ -2841,13 +2839,13 @@ header {
     margin: 0 auto;
     font-family: 'loveloblack'; }
 
-/* line 20, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+/* line 18, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
 .socket-container {
   background: #31323a;
   margin: 0 auto;
   width: 100%; }
 
-/* line 25, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+/* line 23, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
 .multicolumn {
   display: flex;
   flex-direction: column;
@@ -2856,28 +2854,28 @@ header {
   max-width: 1300px;
   margin: 0 auto;
   width: 90%; }
-  /* line 32, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 30, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   .multicolumn article {
     color: #ffffff;
     width: 70%;
     text-align: center;
     margin: 15px auto;
     max-width: 350px; }
-    /* line 39, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 37, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     .multicolumn article h4 {
       margin: 10px auto;
       font-family: 'loveloblack'; }
-    /* line 43, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 41, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     .multicolumn article a {
       color: #ffffff;
       transition: all 0.35s ease-in-out; }
-      /* line 47, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+      /* line 45, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
       .multicolumn article a:hover {
         color: #5aa9e0; }
-  /* line 50, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 48, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   .multicolumn .touch {
     margin: 0; }
-  /* line 53, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 51, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   .multicolumn .social ul {
     display: flex;
     flex-direction: row;
@@ -2887,28 +2885,28 @@ header {
     justify-content: space-around;
     margin: 0 auto; }
 
-/* line 61, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+/* line 59, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
 footer {
   display: inline-block;
   background: #31323a;
   width: 100%; }
-  /* line 66, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 64, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   footer p {
     color: #ffffff;
     text-align: center;
     padding: 25px 0; }
-  /* line 70, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 68, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   footer a {
     display: inline;
     color: #5aa9e0;
     font-family: 'loveloblack';
     transition: all 0.35s ease-in-out; }
-    /* line 76, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 74, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     footer a:hover {
       color: #ffffff; }
 
 @media screen and (min-width: 60em) {
-  /* line 80, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 78, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   .farewell {
     display: flex;
     flex-direction: row;
@@ -2916,7 +2914,7 @@ footer {
     justify-content: space-around;
     justify-content: center;
     align-items: center; }
-  /* line 85, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+  /* line 83, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
   .multicolumn {
     display: flex;
     flex-direction: row;
@@ -2925,27 +2923,27 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 45px 0; }
-    /* line 91, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 89, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     .multicolumn article {
       margin: 0;
       padding: 0;
       height: 180px;
       text-align: left; }
-      /* line 97, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+      /* line 95, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
       .multicolumn article h4 {
         text-align: left;
         font-family: 'loveloblack';
         font-size: 1.4em; }
-    /* line 102, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 100, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     .multicolumn .touch {
       margin-left: 125px; }
-      /* line 105, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+      /* line 103, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
       .multicolumn .touch p {
         line-height: 2; }
-    /* line 109, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 107, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     .multicolumn .follow h4 {
       margin-left: 25px; }
-    /* line 112, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
+    /* line 110, C:/wamp/www/webs_2015/design_theme/sass/modules/socket/_socket.sass */
     .multicolumn .social ul {
       margin: 0; } }
 
